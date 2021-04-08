@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/**** Theme Styles ******/
+.header-section-top {
+  font-size: 14px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.main-banner-section.container-fluid {
+  overflow: hidden;
+  padding: 0px;
+}
+
+.header-btm-last-section,.footer-btm-last-section {
+  display: contents;
+  flex-direction: row-reverse;
+}
+
+.header-section-top.container-fluid .mr-auto span,.footer-sec-top-1 span {
+  padding-left: 10px;
+}
+
+.header-btm-menu-section .nav,.header-btm-last-section .nav{
+  margin-top: 30px;
+}
+
+.header-btm-menu-section .nav-item,.header-btm-last-section .nav-item,.footer-btm-last-section .nav-item {
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.header-btm-menu-section .nav-item a,.header-btm-last-section .nav-item a,.footer-section-top .flex-column .nav-item a,.footer-btm-last-section .nav-item a {
+  color: black;
+}
+
+.footer-section-top {
+  background: #f6f6f8;
+  font-size: 14px;
+}
+
+.footer-section-top .flex-column {
+  margin-top: 30px;
+}
+
+.footer-section-top .flex-column .nav-item {
+  padding-bottom: 20px;
+}
+
+.footer-section-bottom {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.sub-banner-section {
+  position: relative;
+}
+
+.common-margin-top {
+  margin-top: 20px;
+}
+
+.sub-banner-img-content {
+  position: absolute;
+  left: 30%;
+  top: 70%;
+  color: #fff;
+}
+
+.sub-banner-img-content p {
+  text-align: center;
+}
+
+.product-filter-section .card {
+  width: 260px;
+  height: auto;
+}
+
+.product-filter-section .card .card-body {
+  text-align: center;
+}
+
+
